@@ -28,7 +28,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/fHy.jpg https://envs.sh/fge.jpg https://envs.sh/fra.jpg https://envs.sh/fHV.jpg https://envs.sh/fsB.jpg https://envs.sh/fgi.jpg https://envs.sh/fsn.jpg https://envs.sh/fgD.jpg https://envs.sh/fgb.jpg https://envs.sh/fsS.jpg https://envs.sh/fgP.jpg https://envs.sh/fgh.jpg https://envs.sh/fsT.jpg https://envs.sh/fgw.jpg https://envs.sh/fsA.jpg https://envs.sh/fgF.jpg https://envs.sh/fgq.jpg https://envs.sh/fs_.jpg https://envs.sh/fgt.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://envs.sh/gY0.jpeg https://envs.sh/fge.jpg https://envs.sh/fra.jpg https://envs.sh/fHV.jpg https://envs.sh/fsB.jpg https://envs.sh/fgi.jpg https://envs.sh/fsn.jpg https://envs.sh/fgD.jpg https://envs.sh/fgb.jpg https://envs.sh/fsS.jpg https://envs.sh/fgP.jpg https://envs.sh/fgh.jpg https://envs.sh/fsT.jpg https://envs.sh/fgw.jpg https://envs.sh/fsA.jpg https://envs.sh/fgF.jpg https://envs.sh/fgq.jpg https://envs.sh/fs_.jpg https://envs.sh/fgt.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/aPc.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
