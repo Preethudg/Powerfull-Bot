@@ -101,7 +101,7 @@ async def send_msg(bot, filename, caption):
         else:
             language = language[:-2]
         filename = filename.replace('(', '').replace(')', '').replace('[', '').replace(']', '').replace('{', '').replace('}', '').replace(':', '').replace(';', '').replace("'", '').replace('-', '').replace('!', '')
-        text = "#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅\n\n👷𝑵𝒂𝒎𝒆: `{}`\n\n🌳𝑸𝒖𝒂𝒍𝒊𝒕𝒚: {}\n\n🍁𝑨𝒖𝒅𝒊𝒐: {}"
+        text = "#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅\n\n👷𝑵𝒂𝒎𝒆: `{}`\n\n🌳𝑸𝒖𝒂𝒍𝒊𝒕𝒚: {}\n\n🍁𝑨𝒖𝒅𝒊𝒐: {}\n\n😈C.E.O: [ಕನ್ನಡಿಗ]"
         text = text.format(filename, quality, language)
         if await add_name(OWNERID, filename):
           imdb_task = get_movie_details(filename)
@@ -113,7 +113,7 @@ async def send_msg(bot, filename, caption):
                   resized_poster_task = fetch_image(poster_url)
                   resized_poster = await resized_poster_task
           filenames = filename.replace(" ", '-')
-          btn = [[InlineKeyboardButton('⌬ 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗚𝗿𝗼𝘂𝗽 ⌬', url='https://t.me/+_-9trQQYYFczNTJl')]]
+          btn = [[InlineKeyboardButton('🌲 Get Files 🌲', url=f"https://telegram.me/{temp.U_NAME}?start=getfile-{filenames}")]]
           if resized_poster:
               await bot.send_photo(chat_id=DEENDAYAL_MOVIE_UPDATE_CHANNEL, photo=resized_poster, caption=text, reply_markup=InlineKeyboardMarkup(btn))
           else:              
