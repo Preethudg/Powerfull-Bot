@@ -468,7 +468,8 @@ BOT WORKING PROPERLY"""
 🪔 𝑪𝒉𝒆𝒄𝒌 𝒀𝒐𝒖𝒓 𝑨𝒄𝒕𝒊𝒗𝒆 𝑷𝒍𝒂𝒏: /myplan
 ‼️ 𝑨𝒇𝒕𝒆𝒓 𝑺𝒆𝒏𝒅𝒊𝒏𝒈 𝑨 𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕 𝑷𝒍𝒆𝒂𝒔𝒆 𝑮𝒊𝒗𝒆 𝒖𝒔 𝒔𝒐𝒎𝒆 𝑻𝒊𝒎𝒆 𝑻𝒐 𝑨𝒅𝒅 𝒀𝒐𝒖 𝑰𝒏 𝑻𝒉𝒆 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝑳𝒊𝒔𝒕.</b>"""    
 
-    SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
+    SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : Its not a open source project if you want
+                                     Source code contact admin 👇 </b>
 
  ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://telegram.me/Brand_01_01>Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ</a>\n """
 
